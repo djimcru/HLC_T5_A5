@@ -5,7 +5,7 @@ class Circulo(Figura):
     def __init__(self,radio):
         self.radio=radio    
     def calcular_area(self):
-        return 3.1416*self.radio**2
+        return 3.14*self.radio**2
 class Rectangulo(Figura):
     def __init__(self,base,altura):
         self.base=base

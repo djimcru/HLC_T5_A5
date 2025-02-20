@@ -11,7 +11,7 @@ class CuentaBancaria:
         else:
             self.saldo-=monto
     
-cuenta = CuentaBancaria(2000)
+cuenta = CuentaBancaria(1000)
 cuenta.depositar(500)
 cuenta.retirar(300)
 print(cuenta.ver_saldo())

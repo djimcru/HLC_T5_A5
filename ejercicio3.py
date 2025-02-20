@@ -15,8 +15,6 @@ class Trabajador(Persona):
     def presentacion(self):
         print(f"me llamo {self.nombre},tengo{self.edad} años y trabajo en  {self.empresa}")
 
-Elena1=Persona('Elena',35,'Arquitecta')
-Elena2=Trabajador('Elena',35,'Arquitecto','Construcciones xyz')
-Elena1.presentacion()
-Elena2.presentacion()
+Elena=Trabajador('Elena',35,'Arquitecto','Construcciones xyz')
+Elena.presentacion()
 
